@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Primera Aplicacion :D</title>
+
+<!--grupo css-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/aciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+  <h1>Datos personales del alumno</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>foto de perfil</h1>
+      <div>
+      <p>esta es mi imagen de perfil:</p>
+      <br>
+      </div>
+   <div>
+     <img src="imagenes/yop.jpg" width="50%" height="50%"> </div>
+     </div>
+     </div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>datos generales</h2>
+<p>se muestra el nombre</p>
+    </a>
+    </li>
+   <li class="ui-firs-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> fecha de nacimiento </h2>
+   <p>se muestra el dia y año de nacimiento</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> DOMICILIO </h2>
+   <p>muestra el domicilio del lumno</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> deporte favorito </h2>
+   <p>muestra el deporte que mas le gusta al alumno</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> otros gustos e intereses </h2>
+   <p>muestra otros gustos del alumno</p>
+   </a>
+   </li>
+  </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+   <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <div>
+  <h4>Aplicacion 1</h4>
+  <h4> Carlos colosia carrizosa</h4>
+  </div>
+</div>
+</div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b" 
+   <center>
+   <h1> Nombre</h1>
+   </div>
+   </center>
+   <div data-role="content" align="center">
+   <div>
+   <h2>Carlos colosia Carrizosa</h2>
+   </div>
+  </div>
+  <div data-role="footer" data-theme="a">
+  <h4>Aplicacion-01-ccc</h4>
+  </div>
+ </div>
+ </div>
+ 
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b" 
+   <center>
+   <h1> Fecha de Nacimiento</h1>
+   </div>
+   </center>
+   <div data-role="content" align="center">
+   <div>
+   <h2>23 de marzo de 1999</h2>
+   </div>
+  </div>
+  <div data-role="footer" data-theme="a">
+  <h4>Aplicacion-01-CCC</h4>
+  </div>
+ </div>
+ </div>
+ 
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b" 
+   <center>
+   <h1> Domicilio</h1>
+   </div>
+   </center>
+ <div data-role="content" align="center">
+   <div>
+   <h2>18 poniente colonia aguaverde #308</h2>
+   </div>
+  </div>
+  <div data-role="footer" data-theme="a">
+  <h4>Aplicacion-01-CCC</h4>
+  </div>
+ </div>
+ </div>
+ 
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b" 
+   <center>
+   <h1>Deporte favorito</h1>
+   </div>
+   </center>
+   <div data-role="content" align="center">
+   <div>
+   <h2>Basquetball</h2>
+   <img src="imagenes/13326026-Imagen-vectorial-de-dibujos-animados-de-un-Jugador-de-Baloncesto-Baloncesto-Slam-de-Dunking-Foto-de-archivo.jpg" width="50%" height="50%">
+   </div>
+  </div>
+  <div data-role="footer" data-theme="a">
+  <h4>Aplicacion-01-CCC</h4>
+  </div>
+ </div>
+ </div>
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b" 
+   <center>
+   <h1> otros gustos e intereses</h1>
+   </div>
+   </center>
+   <div data-role="content" align="center">
+   <div>
+   <h2>Me Gusta Ver anime </h2>
+   <img src="imagenes/rdf 215.jpg" width="50%" height="50%">
+
+   </div>
+  </div>
+  <div data-role="footer" data-theme="a">
+  <h4>Aplicacion-01-CCC</h4>
+  </div>
+ </div>
+ 
+ </div>
+</body>
+</html>
