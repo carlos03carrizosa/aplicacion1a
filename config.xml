@@ -9,9 +9,9 @@ version = "1.0.0">
 
 <name>Aplicacion uno DATOSALUMNOS</name>
 
-  <desciption>
+  <description>
 	Aplicacion que muestra los datos del alumno
-   </desciption>
+   </description>
  
  <preference name="phonegap-version" value="3.1.0" />
  
